@@ -3,17 +3,44 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@testing-library/jest-dom": "^5.16.5",
-    "@testing-library/react": "^13.4.0",
-    "@testing-library/user-event": "^13.5.0",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "react-scripts": "5.0.1",
-    "web-vitals": "^2.1.4"
+    "@graphql-tools/load-files": "^6.2.5",
+    "@graphql-tools/merge": "^6.2.17",
+    "@material-ui/core": "^4.12.3",
+    "@material-ui/icons": "^4.11.2",
+    "@material-ui/styles": "^4.11.4",
+    "@testing-library/jest-dom": "^5.14.1",
+    "@testing-library/react": "^11.2.7",
+    "@testing-library/user-event": "^12.8.3",
+    "express": "^4.17.1",
+    "express-graphql": "^0.12.0",
+    "formik": "^2.2.9",
+    "formik-material-ui": "^3.0.1",
+    "graphql": "^14.3.1",
+    "graphql-constraint-directive": "^2.1.1",
+    "graphql-tools": "^4.0.8",
+    "install": "^0.13.0",
+    "isomorphic-fetch": "^3.0.0",
+    "lodash": "^4.17.21",
+    "moment": "^2.29.1",
+    "mongodb": "^4.11.0",
+    "next": "^11.1.4",
+    "npm": "^6.14.14",
+    "pg": "^8.3.0",
+    "pg-hstore": "^2.3.4",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-moment": "^1.1.1",
+    "react-scripts": "4.0.3",
+    "sequelize": "^6.6.5",
+    "sql-template-strings": "^2.2.2",
+    "swr": "^0.5.6",
+    "uuid": "^8.3.2",
+    "web-vitals": "^1.1.2"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
@@ -34,5 +61,11 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.14.8",
+    "@babel/core": "^7.15.0",
+    "typescript": "^4.3.5",
+    "webpack-cli": "^4.8.0"
   }
 }
